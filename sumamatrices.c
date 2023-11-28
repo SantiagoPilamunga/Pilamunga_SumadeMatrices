@@ -12,9 +12,18 @@ int main()
     int matrix[n][m];
     for (int i = 0; i < n; i++)
     {
-        for (int i = 0; i < m; i++)
+        for (int j = 0; j < m; j++)
         {
             matrix[i][j]=rand()%101;
+        }
+        
+    }
+    int matrix2[n][m];
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            matrix2[i][j]=rand(%101);
         }
         
     }
