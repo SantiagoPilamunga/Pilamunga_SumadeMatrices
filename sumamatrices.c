@@ -23,7 +23,7 @@ int main()
     {
         for (int j = 0; j < m; j++)
         {
-            matrix2[i][j]=rand(%101);
+            matrix2[i][j]=rand()%101;
         }
         
     }
