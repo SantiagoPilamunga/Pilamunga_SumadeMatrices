@@ -3,7 +3,7 @@
 #include <time.h>
 int main()
 {
-    int n,m;
+    int n, m;
     printf("Ingrese el numero de filas: ");
     scanf("%d", &n);
     printf("Ingrese el numero de columnas: ");
@@ -15,7 +15,7 @@ int main()
     {
         for (int j = 0; j < m; j++)
         {
-            matrix[i][j]=rand()%101;
+            matrix[i][j] = rand() % 101;
             printf("%d\t", matrix[i][j]);
         }
         printf("\n");
@@ -26,7 +26,7 @@ int main()
     {
         for (int j = 0; j < m; j++)
         {
-            matrix2[i][j]=rand()%101;
+            matrix2[i][j] = rand() % 101;
             printf("%d\t", matrix2[i][j]);
         }
         printf("\n");
@@ -37,7 +37,7 @@ int main()
     {
         for (int j = 0; j < m; j++)
         {
-            suma[i][j]=matrix[i][j]+matrix2[i][j];
+            suma[i][j] = matrix[i][j] + matrix2[i][j];
             printf("%d\t", suma[i][j]);
         }
         printf("\n");
